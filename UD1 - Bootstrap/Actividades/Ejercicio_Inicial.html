@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio Inicial Bootstrap - Emmet - Fondos - Textos - Bordes</title>
+  <style>
+    #datos {
+      border-top: 4px dotted #F00;
+      border-bottom: 4px dotted #F00;
+    }
+
+    #contenido {
+      border: 2px dashed #0F0;
+    }
+  </style>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Encabezado Tipo 1 :  con fondo Azul primario degradado y a un 75% de opacidad. Fuente de color Blanco
+ y estilo display-2. Tendrá un borde de grosor 4, color negro con una opacidad de un 25% y un nivel de redondeo 3-->
+
+    <!-- h1.display-2.bg-primary.bg-gradient.bg-opacity-75.border.border-4.border-black.border-opacity-25.rounded-3{HTML &amp; CSS: Curso práctico avanzado} -->
+    <h1 class="display-2 bg-primary bg-gradient bg-opacity-75 border border-4 border-black border-opacity-25 rounded-3 text-white">
+      HTML &amp; CSS: Curso práctico avanzado</h1>
+
+    <!-- Encabezado Tipo 2 con borde de color amarillo y grosor 2. Color de la fuente en amarillo anaranjado. -->
+
+    <!-- h2.text-warning.border.border-2.border-warning.rounded-pill{Datos del libro} -->
+    <h2 class="text-warning border border-2 border-warning rounded-pill">Datos del libro</h2>
+
+    <!-- Lista desordenada con 5 hijos e identificativo (atributo id) datos y una clase  de mt-3 (margin-top) para separa
+   la lista del encabezado anterior  -->
+
+      <!-- ul#datos.mt-3>li*5 -->
+
+    <ul id="datos" class="mt-3">
+      <li>Título: HTML &amp; CSS: Curso práctico avanzado</li>
+      <li>Autor: Sergio Luján Mora</li>
+      <li>Editorial: Publicaciones Altaria</li>
+      <li>Año de publicación: 2015</li>
+      <li>ISBN: 978-84-944049-4-8</li>
+    </ul>
+
+
+    <!-- Encabezado Tipo 2 y 1 párrafo (son hermanos).  -->
+     <!-- h2+p -->
+      <h2></h2>
+      <p></p>
+    <!-- Encabezado de tipo2 con fondo color azul (primario) con opacidad de un 25% y en degradado, 
+              el color de la fuente será blanco -->
+
+    <!-- h2.bg-info.bg-primary.bg-gradient.opacity-25.text-white{Descripción del libro} -->
+
+    <h2 class="bg-info bg-primary bg-gradient opacity-25 text-white">Descripción del libro</h2>
+
+    <!-- Párrafo 1 - color de fuente verde con opacidad de 50%-->
+
+    <!-- p.text-success.opacity-50{} -->
+
+    <p class="text-success opacity-50">Aunque los inicios de Internet se remontan a los años sesenta, no ha sido hasta los años noventa cuando, gracias a
+    la Web, se ha extendido su uso por todo el mundo. En pocos años, la Web ha evolucionado enormemente: se ha pasado de
+    páginas sencillas, con pocas imágenes y contenidos estáticos que eran visitadas por unos pocos usuarios a páginas
+    complejas, con contenidos dinámicos que provienen de bases de datos y que son visitadas por miles de usuarios al
+    mismo tiempo.</p>
+
+    <!-- Tres Párrafos Hermanos -->
+      <!-- p*3 -->
+
+      <P></P>
+      <P></P>
+      <P></P>
+
+    <!-- Párrafo 2 - color de fuente azul clarito con opacidad de 75%-->
+
+      <!-- p.text-info.opacity-75{} -->
+
+    <P class="text-info opacity-75">Todas las páginas están internamente construidas con la misma tecnología, con el Lenguaje de marcas de hipertexto
+    (Hypertext Markup Language, HTML) y con las Hojas de estilo en cascada (Cascading Style Sheets, CSS).</P>
+    <!-- Párrafo 3 - color de fuente amarillo con opacidad de 75%-->
+
+    <!-- p.text-warning.opacity-75{} -->
+    <p class="text-warning opacity-75">Este libro es adecuado para cualquiera que tenga interés en aprender a desarrollar sus propias páginas web. No son
+    necesarios conocimientos previos para aprender con este libro, lo único que es necesario es saber utilizar un
+    ordenador y saber navegar por la Web.</p>
+    
+    <!-- Párrafo 4 - color de fuente gris con opacidad de 50%-->
+
+    <!-- p.text-secondary.opacity-50{} -->
+    <p class="text-secondary opacity-50">Este libro es adecuado para cualquiera que tenga interés en aprender a desarrollar sus propias páginas web. No son
+    necesarios conocimientos previos para aprender con este libro, lo único que es necesario es saber utilizar un
+    ordenador y saber navegar por la Web.</p>
+
+    <!-- Encabezado con fondo color azul (primario) con opacidad de un 10% y en degradado -->
+
+    <!-- h1.bg-info.bg-gradient.opacity-10{Contenido del libro} -->
+    <h1 class="bg-primary bg-gradient bg-opacity-10">Contenido del libro</h1>
+
+    <!-- Párrafo - color de la fuente roja con opacidad del 50% y degradado -->
+
+    <!-- p.text-danger.opacity-50.bg-gradient{El contenido de este libro se estructura en tres apartados bien diferenciados:} -->
+    <p class="text-danger opacity-50 bg-gradient">El contenido de este libro se estructura en tres apartados bien diferenciados:</p>
+
+
+    <!-- lista ordenada con identificativo denominado contenido y tiene 3 hijos li -->
+
+    <!-- ol#contenido>li*3 -->
+
+      <ol id="contenido">
+        <li>En la primera parte del libro se trabajan conceptos generales que son necesarios para poder desarrollar páginas web;
+    se explican conceptos de estructura física y estructura lógica (o estructura de navegación) de un sitio web. Se
+    detalla cómo influye la estructura física en las URL o direcciones que se emplean a la hora de crear los enlaces de
+    un sitio web. Pasando por el concepto de "estándar web", un término general que se emplea para refererirse a los
+    estándares que define su funcionamiento como HTML y CSS, empleados para el desarrollo de las páginas web en el lado
+    del cliente.</li>
+        <li>En la segunda parte se trabaja HTML. Partiendo de la estructura básica de una página web, se explican las etiquetas
+    de HTML que se utilizan para definir el texto, los enlaces, las listas, las tablas, los formularios y los elementos
+    multimedia.</li>
+        <li>En la tercera y última parte se explica CSS, el lenguaje que se emplea para definir el formato y la presentación de
+    una página web. Se explica cómo utilizar el color, cómo definir la presentación del texto, de las tablas y de los
+    formularios; cómo realizar transformaciones y transiciones con el fin de diseñar una página web.</li>
+      </ol>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
