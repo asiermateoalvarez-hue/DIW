@@ -6,5 +6,8 @@
         {
             "path": "Actividades"
         }
-    ]
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "Actividades"
+    }
 }
