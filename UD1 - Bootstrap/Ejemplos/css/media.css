@@ -1,0 +1,31 @@
+.encabezado {
+    background-color:rgb(4, 106, 223);
+    text-align: center;
+}
+
+/* Cambio de color de fondo y alineación de texto para el tamaño md
+
+ @media (min-width:768px) and (max-width:991.99px){
+
+    .encabezado{
+        background-color:rgb(255, 81, 0);
+        text-align: right;
+    }
+} */
+/* Cambia  de color de fondo y de alineación de texto en todos los tamaños excepto el md */
+/* @media (max-width:768px) or (min-width:991.99px){
+
+    .encabezado{
+        background-color:rgb(255, 81, 0);
+        text-align: right;
+    }
+} */
+
+@media (min-width:768px) and (max-width:991.99px),
+(min-width:1200px) and (max-width:1399.99px){
+
+    .encabezado{
+        background-color:rgb(255, 81, 0);
+        text-align: right;
+    }
+}
