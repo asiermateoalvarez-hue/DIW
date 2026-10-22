@@ -1,0 +1,58 @@
+/* EJEMPLO 1 */
+
+.box1 {
+    background-color: red;
+    text-align: center;
+}
+
+.header1 {
+    background-color: chartreuse;
+}
+
+.footer1 {
+    background-color: yellow;
+    text-align: right;
+}
+
+.footer2 {
+    background-color: yellow;
+    text-align: left;
+}
+
+/* EJEMPLO 2 */
+
+.header2 {
+    background-color:aqua;
+}
+
+.box2 {
+    background-color: lime;
+    text-align: center;
+}
+
+.footer3 {
+    background-color: yellow;
+    text-align: center;
+}
+
+/* EJEMPLO 3 */
+
+.headermiddle {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+.boxredleft {
+    background-color: red;
+    text-align: left;
+}
+
+.boxredright {
+    background-color: red;
+    text-align: right;
+}
+
+.boxaqua {
+    background-color: aqua;
+    text-align: center;
+}
