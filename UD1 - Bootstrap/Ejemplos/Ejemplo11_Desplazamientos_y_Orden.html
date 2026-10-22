@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo11 - Desplazamientos y Orden</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+    <body>
+        <div class="container">
+            <H1 class="text-primary border border-warning">Ejemplo GRID DESPLAZAMIENTO Y ORDEN</H1>
+
+            <!-- DESPLAZAMIENTOS CON CLASE OFFSET -->
+
+            <div class="row mb-5">
+                <div class="col-12 col-sm-6 offset-sm-3 col-xxl-3 bg-warning offset-xxl-0">Celda 1</div>
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 bg-info">Celda 2</div>
+                <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 bg-danger">Celda 3</div>
+                <div class="col-12 col-lg-4 col-xxl-3 bg-success">Celda 4</div>
+            </div>
+
+            <!-- ORDEN DE LOS COL -->
+            <div class="row mt-5">
+                <div class="col-12 order-sm-4 col-xxl-3 order-xxl-first bg-warning">Celda 1</div>
+                <div class="col-12 col-sm-6 order-sm-3 col-lg-4 col-xxl-3 bg-info">Celda 2</div>
+                <div class="col-12 col-sm-6 order-sm-2 col-lg-4 col-xxl-3 bg-danger">Celda 3</div>
+                <div class="col-12 order-sm-1 col-lg-4 col-xxl-3 order-xxl-last bg-success">Celda 4</div>
+            </div>
+        </div>  
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
