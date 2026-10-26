@@ -1,0 +1,37 @@
+.headerorfooter {
+    background-color: lime;
+    text-align: center;
+    font-style: italic;
+}
+
+.boxblue {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.boxgray {
+    background-color: gray;
+    text-align: center;
+}
+
+.boxgraysmxs {
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxsmiley {
+    background-color: coral;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxfrowny {
+    background-color: coral;
+    text-align: center;
+}
+
+.boxcyan {
+    background-color: aqua;
+    font-style: italic;
+}
