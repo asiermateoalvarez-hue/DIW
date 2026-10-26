@@ -8,39 +8,46 @@
     <link rel="stylesheet" href="mediaquery6.css">
 </head>
     <body>
-        <div class="container">
-            <H1 class="text-primary border border-warning">Ejercicio 6 GRID Mediaqueries</H1>
-            
-            <div class="col-12">
-                <div class="row header1 mb-1">
-                    Header
+        <div class="container my-4">
+            <h1 class="text-primary border border-warning p-2 mb-4">Ejercicio 6 GRID Mediaqueries</h1>
+
+            <div class="row mb-2">
+                <div class="col-12 headermiddle py-2 d-sm-none">Header</div>
+                <div class="col-12 header2 py-2 d-none d-sm-block d-md-none">Header</div>
+                <div class="col-12 header1 py-2 d-none d-md-block">Header</div>
+            </div>
+
+            <div class="row g-2 mb-2">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="boxredleft py-4 d-sm-none">1</div>
+                    <div class="boxredleft py-4 d-none d-sm-block d-md-none">1</div>
+                    <div class="box1 py-5 d-none d-md-block">1</div>
                 </div>
 
-                <div class="row mb-1">
-                    <div class="col-4 box1 me-1">
-                        1
-                    </div>
-
-                    <div class="col-4 box1 me-1">
-                        2
-                    </div>
-
-                    <div class="col-4 box1">
-                        3
-                    </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="boxaqua py-4 d-sm-none">2</div>
+                    <div class="boxredright py-4 d-none d-sm-block d-md-none">2</div>
+                    <div class="box1 py-5 d-none d-md-block">2</div>
                 </div>
 
-                <div class="row">
-                    <div class="col-6 footer1 me-1">
-                        Footer 1
-                    </div>
-
-                    <div class="col-6 footer2">
-                        Footer 2
-                    </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <div class="boxredright py-4 d-sm-none">3</div>
+                    <div class="box2 py-3 d-none d-sm-block d-md-none">3</div>
+                    <div class="box1 py-5 d-none d-md-block">3</div>
                 </div>
             </div>
-        </div>  
+
+            <div class="row g-2">
+                <div class="col-12 col-md-6">
+                    <div class="footer3 py-2 d-md-none">Footer 1</div>
+                    <div class="footer1 py-2 d-none d-md-block">Footer 1</div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="footer3 py-2 d-md-none">Footer 2</div>
+                    <div class="footer2 py-2 d-none d-md-block">Footer 2</div>
+                </div>
+            </div>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
