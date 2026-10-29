@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <H1 class="text-primary border border-warning">Ejemplo13 - BOTONES</H1>
+
+        <div class="row">
+            <div class="col-12 mb-3">
+                <!-- Botones 8 Colores -->
+
+                <button class="btn btn-primary">Botón azul</button>
+                <button class="btn btn-secondary">Botón gris</button>
+                <button class="btn btn-warning">Botón naranja</button>
+                <button class="btn btn-info">Botón azul claro</button>
+                <button class="btn btn-success">Botón verde</button>
+                <button class="btn btn-danger">Botón rojo</button>
+                <button class="btn btn-dark">Botón negro</button>
+                <button class="btn btn-light">Botón gris muy claro</button>
+            </div>
+
+
+
+            <div class="col-12 mb-3">
+
+                <!-- Botones con Color en el borde -->
+
+                <button class="btn btn-outline-primary">Botón azul</button>
+                <button class="btn btn-outline-secondary">Botón gris</button>
+                <button class="btn btn-outline-warning">Botón naranja</button>
+                <button class="btn btn-outline-info">Botón azul claro</button>
+                <button class="btn btn-outline-success">Botón verde</button>
+                <button class="btn btn-outline-danger">Botón rojo</button>
+                <button class="btn btn-outline-dark">Botón negro</button>
+                <button class="btn btn-outline-light">Botón gris muy claro</button>
+            </div>
+
+            <div class="col-12 mb-3">
+
+                <!-- Tipos de botones -->
+
+                <button class="btn btn-outline-primary">Botón azul</button>
+                <input type="submit" value="enviar" class="btn btn-outline-success">
+                <input type="reset" value="limpiar" class="btn btn-outline-secondary">
+                <input type="button" value="acción" class="btn btn-outline-success">
+                <a href="#" class="btn btn-outline-info" role="button">Envío a Página</a>
+            </div>
+
+            <div class="col-12 mb-3">
+
+                <!-- Deshabilitar botones -->
+
+                <button class="btn btn-outline-primary" disabled>Botón azul</button>
+                <input type="submit" value="enviar" class="btn btn-outline-success" disabled>
+                <input type="reset" value="limpiar" class="btn btn-outline-secondary" disabled>
+                <input type="button" value="acción" class="btn btn-outline-success" disabled>
+                <a href="#" class="btn btn-outline-info disabled" role="button" aria-disabled="true">Envío a Página</a>
+            </div>
+
+            <div class="col-12 mb-3">
+
+                <!-- Tamaños de botones -->
+
+                <button class="btn btn-outline-primary">Botón azul</button>
+                <button class="btn btn-outline-primary btn-lg">Botón GRANDE azul</button>
+                <button class="btn btn-outline-primary btn-sm">Botón PEQUEÑO azul</button>
+            </div>
+
+            <div class="col-12 mb-3">
+
+                <!-- Texto sin salto de línea y con salto de línea -->
+
+                <button class="btn btn-outline-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, sit
+                    aut harum, consequatur distinctio ipsam dolorum neque natus tenetur reiciendis dolore blanditiis
+                    tempore temporibus adipisci, placeat voluptatum excepturi! Voluptates porro libero mollitia fugiat
+                    quaerat similique!</button>
+                <button class="btn btn-outline-primary btn-lg text-nowrap">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Magnam temporibus corrupti nisi dolor beatae quis, necessitatibus nulla, maiores
+                    placeat voluptatem amet odit voluptate hic. Animi iusto dolor in nulla voluptatibus nihil, magnam
+                    quae quisquam eveniet?</button>
+            </div>
+
+            <div class="col-12 d-grid gap-2 mb-3">
+
+                <!-- Posicionamiento de botones dentro de un contenedor -->
+                <!-- Los botones se ajustan al contenedor y la separación entre ellos está indicada con gap-2 -->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+
+            <div class="col-12 d-flex justify-content-start gap-2 mb-3">
+
+                <!-- Botones al principio -->
+                 <!-- Los botones se colocan al principio del contenedor.
+                  La separación entre ellos nos la marca el gap-2 -->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+
+            <div class="col-12 d-flex justify-content-end gap-2 mb-3">
+
+                <!-- Botones al final -->
+                 <!-- Los botones se colocan al final del contenedor.
+                  La separación entre ellos nos la marca el gap-2 -->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center gap-2 mb-3">
+
+                <!-- Botones en el centro -->
+                 <!-- Los botones se colocan al centro del contenedor.
+                  La separación entre ellos nos la marca el gap-2 -->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+
+            <div class="col-12 d-flex justify-content-between mb-3">
+
+                <!-- Botones con separación -->
+                <!-- Los botones se colocan el primero al principio del contenedor,
+                el último al final del contenedor y los demás a la misma distancia que ellos.-->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+
+            <div class="col-12 d-flex justify-content-around gap-2 mb-3">
+
+                <!-- Botones con propiedad around (deja la mitad de la distancia entre los elementos) -->
+                 <!-- Igual que el between pero dejando como margen izquierdo y derecho la mitad de la distancia que hay entre el resto de elementos. -->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+
+            <div class="col-12 d-flex justify-content-evenly gap-2 mb-3">
+
+                <!-- Botones con propiedad evenly (la misma distancia) -->
+                 <!-- Igual que el between pero dejando como margen izquierdo y derecho la misma distancia que hay entre el resto de elementos. -->
+
+                <button class="btn btn-outline-primary">Aceptar</button>
+                <button class="btn btn-outline-secondary">Cancelar</button>
+                <button class="btn btn-outline-success">Redirigir</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
