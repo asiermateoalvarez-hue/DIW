@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo17 - Alertas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <H1 class="text-primary border border-warning">Ejemplo17 - ALERTAS</H1>
+
+        <div class="alert alert-primary" role="alert"> Mensaje de alerta en pantalla</div>
+        <div class="alert alert-success" role="alert"> Mensaje de alerta en pantalla</div>
+        <div class="alert alert-info" role="alert"> Mensaje de alerta en pantalla</div>
+        <div class="alert alert-warning" role="alert"> Mensaje de alerta en pantalla</div>
+        <div class="alert alert-danger" role="alert"> Mensaje de alerta en pantalla</div>
+        <div class="alert alert-dark" role="alert"> Mensaje de alerta en pantalla</div>
+        <div class="alert alert-light" role="alert"> Mensaje de alerta en pantalla</div>
+
+        <!-- role="alert" -> Lleva implícito aria-live="assertive" y aria-atomic="true" -->
+        <h5 class="text-primary"> Alertas con texto en negrita, enlaces, iconos</h5>
+        <div class="alert alert-primary" role="alert">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                    d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+            </svg>
+
+            Mensaje de <strong>alerta</strong> en pantalla. Busca más info aquí <a href="#" class="alert-link"></a>
+        </div>
+
+        <h5 class="text-primary"> Alertas con botón de cierre</h5>
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path
+                    d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z" />
+            </svg>
+
+            Mensaje de <strong>alerta</strong> en pantalla. Busca más info aquí <a href="#" class="alert-link"></a>
+            <Button class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar alerta"></Button>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading">Titulo de la alerta</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur adipisci repudiandae molestias,
+                eos aut doloribus. Ipsa vero vitae dignissimos explicabo cum doloribus laboriosam dolorem sapiente.</p>
+
+            <hr>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum neque unde ex excepturi, illo temporibus
+                voluptas nisi necessitatibus culpa tempora, eligendi natus blanditiis nobis quas.</p>
+
+            <Button class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar alerta"></Button>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
