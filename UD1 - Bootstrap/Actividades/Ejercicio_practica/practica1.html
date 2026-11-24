@@ -1,48 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 1 - Asier Mateo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-    <body>
-        <h1 class="text-primary border border-warning">Practica 1 - Asier Mateo</h1>
 
-        <div class="row">
-            <div class="col-6 bg-danger bg-opacity-75">1.1 Destacado Principal</div>
+<body>
+    <div class="container">
+        <h1 class="text-primary border border-warning">Practica examen - Asier Mateo</h1>
 
-            <div class="col-3">
-                <div class="row">
-                    1.2 Subnoticia A
-                </div>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <h4 class="alert-heading mb-4">¡Atención!</h4>
+            <p><b>Primer párrafo</b></p>
+            <hr>
+            <p class="mb-3">Segundo párrafo</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+        </div>
 
-                <div class="row">
-                    1.2 Subnoticia B
-                </div>
-            </div>
-
-            <div class="col-3">
-                <div class="row">
-                    3.1 Publicidad Superior
-                </div>
-
-                <div class="row">
-                    <div class="col-6">
-                        3.2 Mini A
-                    </div>
-
-                    <div class="col-6">
-                        3.3 Mini B
-                    </div>
-                </div>
+        <div class="row mb-4">
+            <div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 bg-info bg-opacity-25">
+                Primer Contenedor
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-4">
+            <div class="col-12 col-md-4 order-md-3 order-xxl-last bg-warning">
+                Caja A
+            </div>
 
+            <div class="col-12 col-md-4 order-md-2 order-xxl-first bg-info">
+                Caja B
+            </div>
+
+            <div class="col-12 col-md-4 order-md-1 bg-success">
+                Caja C
+            </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    </body>
+        <div class="row mb-4">
+            <div class="col-12 mb-3 d-flex justify-content-center align-items-center gap-2">
+                <button class="btn btn-warning btn-lg">
+                    botón tamaño lg
+                </button>
+
+                <button class="btn btn-info">
+                    botón normal
+                </button>
+
+                <button class="btn btn-danger btn-sm">
+                    botón tamaño sm
+                </button>
+
+                <button class="btn btn-secondary" disabled>
+                    deshabilitado
+                </button>
+
+                <a href="./Ejercicio12/Ejercicio12.html" class="btn btn-outline-primary" role="button">
+                    enlace
+                </a>
+            </div>
+
+            <div class="col-12 mb-3 d-flex justify-content-between">
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-trigger="hover"
+                    data-bs-placement="top" data-bs-title="Popover arriba"
+                    data-bs-content="Este es un popover hacia arriba.">
+                    Hover Popover (top)
+                </button>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="popover"
+                    data-bs-placement="bottom" data-bs-title="Popover abajo"
+                    data-bs-content="Este es un popover hacia abajo.">
+                    Clic Popover (bottom)
+                </button>
+
+                <button type="button" class="btn btn-outline-success" data-bs-toggle="popover" data-bs-trigger="hover"
+                    data-bs-placement="left" data-bs-title="Popover hacia la izquierda"
+                    data-bs-content="Este es un popover hacia la izquierda.">
+                    Hover Popover (left)
+                </button>
+            </div>
+
+            <div class="col-12 mb-3 d-flex justify-content-center gap-2">
+                <button class="btn btn-primary" id="ToastBtn">
+                    Guardar Cambios
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-50 end-0 p-3">
+        <div class="toast" id="Toast1" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto">Titulo</strong>
+                <small>Ahora mismo.</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+
+            <div class="toast-body">
+                Esto es un mensaje de confirmación
+                <img src="https://picsum.photos/id/200/237/150" alt="imagen toast">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/toast.js"></script>
+
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+        const popoverList = [...popoverTriggerList].map(el => new bootstrap.Popover(el));
+    </script>
+
+    <script>
+        const toastTrigger = document.getElementById('ToastBtn')
+        const toastLiveExample = document.getElementById('Toast1')
+
+        if (toastTrigger) {
+            const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+            toastTrigger.addEventListener('click', () => {
+                toastBootstrap.show()
+            })
+        }
+    </script>
+</body>
+
 </html>
